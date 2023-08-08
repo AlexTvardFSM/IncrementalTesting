@@ -25,7 +25,7 @@ The application returns the timed test suite where every line of the file is a t
 The obtained test file contains a postfix “_res” in the filename.
 
 Example of running an application:
-fsm_abs.exe D:\0.fsm D:\test.txt D:\mod.txt 
-fsm_abs.exe D:\0.fsm D:\test.txt (trasformation test to timed test without removing sequences)
+in_time_test.exe D:\0.fsm D:\test.txt D:\mod.txt 
+in_time_test.exe D:\0.fsm D:\test.txt (trasformation test to timed test without removing sequences)
 
 Note: We also provide the code of the tool which is written in C++ and can run under operating system Windows.
